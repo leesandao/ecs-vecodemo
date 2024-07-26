@@ -47,7 +47,7 @@ metadata:
   name: frigatenfs
   namespace: frigatenfs
   annotations:
-    metallb.universe.tf/loadBalancerIPs: 192.168.0.243
+    metallb.universe.tf/loadBalancerIPs: 192.168.100.243
 spec:
   selector:
     app: frigatenfs
