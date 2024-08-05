@@ -35,8 +35,9 @@ data:
       stats_interval: 60
 
     detectors:
-      cpu1:
-        type: cpu
+      coral:
+        type: edgetpu
+        device: usb
 
     objects:
       track:
@@ -68,7 +69,7 @@ spec:
     metadata:
       labels:
         app: frigate
-        app.kubernetes.io/version: "0.0.7"
+        app.kubernetes.io/version: "0.0.8"
     spec:
       containers:
         - name: frigate
