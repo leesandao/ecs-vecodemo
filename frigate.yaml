@@ -35,9 +35,8 @@ data:
       stats_interval: 60
 
     detectors:
-      coral:
-        type: edgetpu
-        device: usb
+      cpu1:
+        type: cpu
 
     objects:
       track:
