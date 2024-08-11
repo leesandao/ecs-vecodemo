@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: nginx-helloworld
-        image: alanrenouf/docker-nginx-hello-keswick
+        image: quay.io/ecsdemo/nginx-hello-ecs:latest
         ports:
         - containerPort: 80
 ---
