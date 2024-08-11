@@ -48,7 +48,7 @@ data:
       front_road:
         ffmpeg:
           inputs:
-            - path: rtsp://192.168.1.13:554/ch01.264
+            - path: rtsp://192.168.100.251:554/ch01.264
               roles:
                 - detect
                 - rtmp
